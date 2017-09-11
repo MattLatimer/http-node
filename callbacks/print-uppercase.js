@@ -6,9 +6,7 @@ var requestOptions = {
 };
 
 function printUpperCase (html) {
-
-  /* Write your code here! */
-
+  console.log(String(html).toUpperCase());
 }
 
 getHTML(requestOptions, printUpperCase);

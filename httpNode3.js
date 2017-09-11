@@ -6,7 +6,7 @@ var requestOptions = {
 };
 
 const getAndPrintHTML = function (options) {
-  https.get(requestOptions, (res) => {
+  https.get(options, (res) => {
     res.setEncoding('utf-8');
 
     let message = '';
